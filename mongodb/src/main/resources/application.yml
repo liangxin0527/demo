@@ -1,0 +1,22 @@
+#spring.application.name=mongodb
+#management.endpoints.jmx.exposure.include=*
+#management.endpoints.web.exposure.include=*
+#management.endpoint.health.show-details=always
+## spring cloud access&secret config
+## 可以访问如下地址查看: https://usercenter.console.aliyun.com/#/manage/ak
+#alibaba.cloud.access-key=****
+#alibaba.cloud.secret-key=****
+spring:
+  application:
+    name: mongodb
+  data:
+    mongodb:
+      authentication-database: admin
+      host: 192.168.111.128
+      username: lbaci
+      password: lbaci
+      port: 27017
+      database: demo
+
+server:
+  port: 9001

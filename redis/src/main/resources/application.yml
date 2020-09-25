@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: redis
+  redis:
+    host: localhost
+    password:
+    port: 6379
+server:
+  port: 9002
+
