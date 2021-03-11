@@ -35,7 +35,8 @@ public class RedisConfig implements IConstans {
      * @return
      */
     @Bean
-    RedisMessageListenerContainer container(RedisConnectionFactory redisConnectionFactory, MessageListenerAdapter messageListenerAdapter1, MessageListenerAdapter messageListenerAdapter2) {
+    RedisMessageListenerContainer container(RedisConnectionFactory redisConnectionFactory,
+                                            MessageListenerAdapter messageListenerAdapter1, MessageListenerAdapter messageListenerAdapter2) {
         RedisMessageListenerContainer redisMessageListenerContainer = new RedisMessageListenerContainer();
         //TODO 订阅方监听容器 里面有很多的消息监听者 监听者需要一个消息处理器 消息处理器 需要我们自定一个实践通过反射来消费具体的消息
         redisMessageListenerContainer.setConnectionFactory(redisConnectionFactory);
