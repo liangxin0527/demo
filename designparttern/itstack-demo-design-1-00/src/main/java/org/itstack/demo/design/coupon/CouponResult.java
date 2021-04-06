@@ -1,5 +1,8 @@
 package org.itstack.demo.design.coupon;
 
+/**
+ * @author Administrator
+ */
 public class CouponResult {
 
     private String code; // 编码

@@ -26,7 +26,6 @@
         <module name="scurity" />
         <module name="itstack-demo-design-10-01" />
         <module name="itstack-demo-design-14-02" />
-        <module name="itstack-demo-design-1-02" />
         <module name="itstack-demo-design-18-00" />
         <module name="itstack-demo-design-6-02" />
         <module name="itstack-demo-design-14-01" />
@@ -64,6 +63,12 @@
         <module name="itstack-demo-design-4-00" />
         <module name="itstack-demo-design-4-02" />
       </profile>
+      <profile name="Annotation profile for itstack-demo-design" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="itstack-demo-design-1-02" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common" target="1.8" />
@@ -71,7 +76,7 @@
       <module name="elasticsearch" target="1.8" />
       <module name="itstack-demo-design-1-00" target="1.5" />
       <module name="itstack-demo-design-1-01" target="1.5" />
-      <module name="itstack-demo-design-1-02" target="1.5" />
+      <module name="itstack-demo-design-1-02" target="6" />
       <module name="itstack-demo-design-10-00" target="1.8" />
       <module name="itstack-demo-design-10-01" target="1.5" />
       <module name="itstack-demo-design-10-02" target="1.8" />

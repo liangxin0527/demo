@@ -5,6 +5,9 @@ import org.itstack.demo.design.matter.EGM;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * @author Administrator
+ */
 public class EGMCacheAdapter implements ICacheAdapter {
 
     private EGM egm = new EGM();

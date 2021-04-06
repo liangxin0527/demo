@@ -11,7 +11,6 @@ public class ApiTest {
 
     @Test
     public void test_CacheService() throws Exception {
-
         CacheService proxy_EGM = JDKProxy.getProxy(CacheServiceImpl.class, new EGMCacheAdapter());
         proxy_EGM.set("user_name_01", "小傅哥");
         String val01 = proxy_EGM.get("user_name_01");
