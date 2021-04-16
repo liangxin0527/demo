@@ -1,5 +1,7 @@
 spring:
   kafka:
+    streams:
+      application-id: kafka
     bootstrap-servers: 192.168.1.188:9092
     producer:
       # 发生错误后，消息重发的次数。

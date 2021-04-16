@@ -26,11 +26,12 @@ public class LogAspect {
     };
 
     @Around("opLog()")
-    public void addLog(JoinPoint joinPoint){
+    public Object addLog(JoinPoint joinPoint){
         MethodSignature signature = (MethodSignature)joinPoint.getSignature();
         LoginLog loginLog = new LoginLog();
         loginLog.setDescription(signature.getName());
         loginLog.setLoginTime(LocalTime.now());
         loginLog.setMethod(signature.getMethod().getAnnotation(Log.class).name());
+        return null;
     }
 }

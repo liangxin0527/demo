@@ -73,7 +73,7 @@ class MongodbApplicationTests {
         q.with(PageRequest.of(0, 5));
         q.with(Sort.by(Sort.Direction.ASC, "userage"));
         List<Users> list = this.mongoTemplate.find(q, Users.class);
-        list.forEach(e -> System.out.println(e));
+        list.forEach(System.out::println);
         Query q2 = new Query(Criteria.where("username").regex("lb"));
         long count = this.mongoTemplate.count(q2, Users.class);
         System.out.println(count);

@@ -1,0 +1,40 @@
+package com.example.kafka.stream;
+
+import lombok.Data;
+
+import java.io.Serializable;
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+/**
+ * @author Administrator
+ */
+@Data
+public class OrderModel implements Serializable {
+
+    /**
+     * 用户id
+     */
+    private Integer userId;
+
+    /**
+     * 订单号
+     */
+    private String orderNo;
+
+    /**
+     * 订单时间
+     */
+    private LocalDateTime orderTime;
+
+    /**
+     * 订单金额
+     */
+    private BigDecimal orderAmt;
+
+    /**
+     * 订单状态
+     */
+    private String orderStatus;
+
+}

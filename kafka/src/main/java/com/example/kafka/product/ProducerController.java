@@ -28,15 +28,15 @@ public class ProducerController {
 
     @RequestMapping("message/send")
     public String send(String msg) {
+
         //使用kafka模板发送信息
-        ListenableFuture<SendResult<String, Object>> future = kafkaTemplate.send("demo", msg);
+        ListenableFuture<SendResult<String, Object>> future = kafkaTemplate.send("stream", msg);
         future.addCallback(new ListenableFutureCallback<SendResult<String, Object>>() {
             @Override
             public void onFailure(Throwable throwable) {
                 //发送失败的处理
                 log.info(TOPIC_TEST + " - 生产者 发送消息失败：" + throwable.getMessage());
             }
-
             @Override
             public void onSuccess(SendResult<String, Object> stringObjectSendResult) {
                 //成功的处理
