@@ -10,6 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 public class TestGitTemplate {
     public TestGitTemplate() {
         log.info("amend test");
+        log.info("amend 2");
         log.info("test add git template");
     }
 
