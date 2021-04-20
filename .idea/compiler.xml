@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="itstack-demo-design-11-01" />
         <module name="itstack-demo-design-11-02" />
+        <module name="mail" />
         <module name="itstack-demo-design-9-02" />
         <module name="itstack-demo-design-9-01" />
         <module name="itstack-demo-design-9-00" />
@@ -126,6 +127,7 @@
       <module name="javapro" target="1.8" />
       <module name="kafka" target="1.8" />
       <module name="lucene" target="1.8" />
+      <module name="mail" target="1.8" />
       <module name="mongodb" target="1.8" />
       <module name="redis" target="1.8" />
       <module name="scurity" target="1.8" />

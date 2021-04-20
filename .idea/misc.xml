@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/scurity/pom.xml" />
         <option value="$PROJECT_DIR$/lucene/pom.xml" />
         <option value="$PROJECT_DIR$/designparttern/pom.xml" />
+        <option value="$PROJECT_DIR$/mail/pom.xml" />
       </list>
     </option>
   </component>
