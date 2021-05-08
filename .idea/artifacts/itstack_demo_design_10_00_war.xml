@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="itstack-demo-design-10-00:war">
-    <output-path>$PROJECT_DIR$/designparttern/itstack-demo-design-10-00/target</output-path>
+    <output-path>$PROJECT_DIR$/itstack-demo-design/itstack-demo-design-10-00/target</output-path>
     <properties id="maven-jee-properties">
       <options>
         <module>itstack-demo-design-10-00</module>

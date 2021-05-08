@@ -7,7 +7,7 @@
     <option name="excludeFilter" value="" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/designparttern/itstack-demo-design-10-00" />
+    <file type="web" url="file://$PROJECT_DIR$/itstack-demo-design/itstack-demo-design-10-00" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
